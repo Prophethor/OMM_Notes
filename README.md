@@ -7,7 +7,7 @@
 * Odstupanja modela od stvarnosti - nepreciznost čula i mernih instrumenata, kao i namerna pojednostavljivanja pojava
 * Matematički model - opisivanje neke pojave ili koncepta korišćenjem matematičkih koncepata i jezika
 
-    ![Tux, the Linux mascot](./priroda_model.png)
+    ![Dijagram modela](./priroda_model.png)
 
 * Razlozi za modeliranje:
 
@@ -155,7 +155,7 @@
 * Neka je $Q = Q_1^{a_1} \cdot ... \cdot Q_n^{a_n}$. Za ovakvu veličinu važi da je bezdimenziona akko je $Ma = 0$, gde je $a = (a_1,...,a_n)$
 
 * Neka je $F$ funkcija $n$ promenljivih, pa možemo reći da $f(Q_1,...,Q_n)=0$ ima fizičkog smisla ako važi sledeće:
-    1. $f(Q_1,...,Q_n)$ je takođe fizička veličina, tj. važe pravila $$1) v(f(Q_1,...,Q_n)) = f(v(Q_1),...,v(Q_n))\\ 2) \delta(f(Q_1,...,Q_n)) = \delta_1^{\beta_1} \cdot ... \cdot \delta_k^{\beta_k}, \beta_1,...,\beta_k \in \mathbb{Q}\\ 3) [f(Q_1,...,Q_n)] = [\delta_1]^\beta_1 \cdot...\cdot [\delta_k]^\beta_k$$
+    1. $f(Q_1,...,Q_n)$ je takođe fizička veličina, tj. važe pravila $$v(f(Q_1,...,Q_n)) = f(v(Q_1),...,v(Q_n))$$ $$\delta(f(Q_1,...,Q_n)) = \delta_1^{\beta_1} \cdot ... \cdot \delta_k^{\beta_k}, \beta_1,...,\beta_k \in \mathbb{Q}$$ $$[f(Q_1,...,Q_n)] = [\delta_1]^\beta_1 \cdot...\cdot [\delta_k]^\beta_k$$
     2. Za proizvoljne realne $\rho_1,...,\rho_n$ i pozitivne realne $x_1,...,x_n$ važi $$f(x_1^{m_{11}}\cdot...\cdot x_k^{m_{k1}}\rho_1,...,x_1^{m_{1n}}\cdot...\cdot x_k^{m_{kn}}\rho_n) = x_1^{\beta_1}\cdot ... \cdot x_k^{\beta_k}f(\rho_1,...,\rho_n)$$ 
     3. Pošto je veličina $f(Q_1,...,Q_n)$ izražena preko veličina onda i jedinica za tu veličinu mora biti povezana sa jedinicama veličine $Q_i$ formulom $[f(Q_1,...,Q_n)] = [Q_1]^{k_1}\cdot ... \cdot [Q_n]^{k_n}$ za neke $k_1,...,k_n \in \mathbb{Q}$
 
